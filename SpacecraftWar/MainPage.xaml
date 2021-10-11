@@ -1,0 +1,80 @@
+﻿<Page
+    x:Class="SpacecraftWar.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpacecraftWar"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Canvas Name="MyCanvas">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/Assets/Space.jpg"/>
+            </Canvas.Background>
+            <Border x:Name="MyPlayer" BorderBrush="Black" Height="75"  Width="75" Canvas.Left="720" Canvas.Top="725" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/RocketShip.jpg"/>
+                </Border.Background>
+            </Border>
+            <Border Name="Enemy1" BorderBrush="Black" Height="100" Canvas.Left="0" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+            <Border Name="Enemy2" BorderBrush="Black" Height="100" Canvas.Left="150" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+
+            <Border Name="Enemy3" BorderBrush="Black" Height="100" Canvas.Left="300" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+
+            <Border Name="Enemy4" BorderBrush="Black" Height="100" Canvas.Left="450" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+            <Border Name="Enemy5" BorderBrush="Black" Height="100" Canvas.Left="600" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+            <Border Name="Enemy6" BorderBrush="Black" Height="100" Canvas.Left="750" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+            <Border Name="Enemy7" BorderBrush="Black" Height="100" Canvas.Left="900" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+            <Border Name="Enemy8" BorderBrush="Black" Height="100" Canvas.Left="1050" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+            <Border Name="Enemy9" BorderBrush="Black" Height="100" Canvas.Left="1200" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+            <Border Name="Enemy10" BorderBrush="Black" Height="100" Canvas.Left="1350" Canvas.Top="200" Width="100">
+                <Border.Background>
+                    <ImageBrush ImageSource="/Assets/EnemySpaceship.jpg"/>
+                </Border.Background>
+            </Border>
+            <Ellipse Name="el1" Width="75" Height="75" Fill="Green" Canvas.Left="275" Canvas.Top="730" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Ellipse Name="el2" Width="75" Height="75" Fill="Green" Canvas.Left="1255" Canvas.Top="615" />
+            <Ellipse Name="el3" Width="75" Height="75" Fill="Green" Canvas.Left="1255" Canvas.Top="740" />
+            <Ellipse Name="el4" Width="75" Height="75" Fill="Green" Canvas.Left="275" Canvas.Top="605" />
+
+        </Canvas>
+    </Grid>
+</Page>
